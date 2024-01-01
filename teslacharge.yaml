@@ -11,7 +11,7 @@ blueprint:
 
     **IMPORTANT => Use at your own risk. Please see the discussions in the Home Assistant community**
 
-    *[Blueprint Version: 0.04.01](https://community.home-assistant.io/t/tesla-controlled-charge-rate-based-on-power-sensor/607107)*
+    *[Blueprint Version: 0.04.02](https://community.home-assistant.io/t/tesla-controlled-charge-rate-based-on-power-sensor/607107)*
   domain: automation
   input:
     power_sensor_1_entity:
