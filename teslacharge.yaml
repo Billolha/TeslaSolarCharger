@@ -28,7 +28,7 @@ blueprint:
       default: 11000
       selector:
         number:
-          min: 0
+          min: -100000
           max: 100000
           mode: box
     power_sensor_1_charge_upper_value:
@@ -37,7 +37,7 @@ blueprint:
       default: 8000
       selector:
         number:
-          min: 0
+          min: -100000
           max: 100000
           mode: box
     power_sensor_1_charge_lower_value:
@@ -46,7 +46,7 @@ blueprint:
       default: 6000
       selector:
         number:
-          min: 0
+          min: -100000
           max: 100000
           mode: box
     polling_time:
@@ -140,7 +140,7 @@ blueprint:
       description: This is a absolute max value which will trigger a drop in charging amps.
       selector:
         number:
-          min: 0
+          min: -100000
           max: 100000
           mode: box
   source_url: https://gist.github.com/DataBitz/bcccb37ab0678286bc8cabb23a61d4cb
